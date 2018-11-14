@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "nightwatch": "^0.9.21",
+    "webdriver-manager": "^12.1.0",
+    "ws": "^6.1.0"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "start-selenium": "webdriver-manager update && webdriver-manager start"
+  }
+}
